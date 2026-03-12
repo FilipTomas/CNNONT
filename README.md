@@ -2,7 +2,7 @@
 
 1. **Generate k-mer profiles**
 
-   Use [Draven](https://github.com/FilipTomas/Draven) to produce per-read, per-position k-mer profiles.  
+   Use [FastK](https://github.com/thegenemyers/FASTK) or [Draven](https://github.com/FilipTomas/Draven) to produce per-read, per-position k-mer profiles.  
    The output should be `.TSV` files containing the following columns:
 
    - `k-mer multiplicity`
